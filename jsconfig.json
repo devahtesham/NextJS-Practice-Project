@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "paths": {
+            // this optin means when we write @/something so this means ./something   ===> ./ means root directory
+            "@/*":["./*"]
+        }
+    }
+}
